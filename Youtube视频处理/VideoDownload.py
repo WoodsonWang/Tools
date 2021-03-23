@@ -39,7 +39,7 @@ def mp4Tomp3(vido_path,outdir):
 
 
 if __name__ == '__main__':
-    url = 'https://www.youtube.com/watch?v=8xZ7b-iLg5I'
+    url = 'https://www.youtube.com/watch?v=PNyfdl7vwBI'
     # get_info(url)
-    # download(url)
-    mp4Tomp3('./Videos/木吉他.mp4',outdir='./Videos/木吉他.mp3'.format(out_dir))
+    download(url)
+    # mp4Tomp3('./Videos/木吉他.mp4',outdir='./Videos/木吉他.mp3'.format(out_dir))
